@@ -1,0 +1,20 @@
+{% extends 'base.html'%}
+
+{% block content %}
+    <div class="container">
+     <div class="row">
+         <div class="col-auto">
+            <h1>Contact Us</h1>
+
+            <form action="" method="post">
+               {% csrf_token %}
+               {{ form }}
+               <input type="submit" value="Submit">
+            </form>
+         </div>
+     </div>
+    </div>
+{% endblock %}
+{% block footer %}
+    {% include 'footer.html' %}
+{% endblock %}
