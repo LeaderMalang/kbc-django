@@ -1,0 +1,121 @@
+/* Mobile Portrait View */
+@media screen and (max-width:767px) {
+*{box-sizing:border-box;}
+.left, .right, .copyright-txt, .design-by{ float:none;}
+.container { width:auto; padding:0 20px;}
+.siteheader{ position:relative; background-color:#111 !important; }
+.logo{ width:auto; float:none; text-align:center; margin-bottom:10px; position:relative;}
+.hdr_logright{ float:none; padding:0;}
+/*coloumn css*/
+.article_imagebox{ width:100%; float:none; margin:0 0 10px;}
+/*sidebar css*/
+#sidebar{ width:100%; float:none;}
+.content-area{ width:auto; margin:0; padding:50px 20px;}
+.contentarea_for_pagelayout{ width:auto; float:none;}
+
+/*slider css*/
+#slider{ top:0; margin:0;}
+.nivo-caption{ width:90%;}
+.nivo-caption h2{ font-size:18px !important; line-height:22px !important; margin:0 0 10px !important;}
+.nivo-caption p{ line-height:16px; font-size:14px;}
+.nivo-directionNav a{ top:30% !important;}
+.nivo-controlNav{ display:none !important;}
+a.nivo-prevNav{ left:1%;}
+a.nivo-nextNav{right:1%;}
+.nivo-caption .slider_morebtn{ display:none;}
+.dental_abtthumb, .denatl_abtcontentdiv{ float:none; width:auto; margin:0 0 25px 0;}
+.custom_front_page .dental_blogpost_layout{  width:100%; float:none;  }
+.custom_front_page .article_imagebox{  height:auto; margin-bottom:20px;}
+.custom_front_page .article_imagebox img{  height: auto; min-height: inherit;}
+
+/*front blog post*/
+
+.wpcf7 input[type="text"], .wpcf7 input[type="tel"], .wpcf7 input[type="email"], .wpcf7 textarea{ width:100%;}
+#site_layout_option{ width:100%;}
+.dental_servicesbx{ width:auto; float:none; margin:0 0 35px;}
+.dental_servicesbx.last_column{ margin-bottom:30px;}
+.widget-column-1, .widget-column-2, .widget-column-3, .widget-column-4{ float:none; width:100%; text-align:left;}
+.footer-wrapper ul li{ margin:0;}
+.footer-wrapper ul li a{ padding:5px;}
+.denatl_abtcontentdiv h3{ font-size:30px;}
+#dental_services_wrap{ padding:30px 0;}
+#dental_about_wrapper{ padding:30px 0;}
+iframe{ height:auto;}
+}
+
+/* Mobile Landscape View */
+@media screen and (min-width: 481px) and (max-width: 767px){
+*{box-sizing:border-box;}
+.container, .content-area{ width:440px; margin:0 auto;}
+.nivo-controlNav{ display:none !important;}
+}
+/* Mobile Landscape View */
+@media screen and (min-width: 300px) and (max-width: 481px){
+*{box-sizing:border-box;}
+.social-icons{ display:block; padding:0;}
+.nivo-caption{ left:18%;}
+.social-icons a{ padding:0; padding:0 10px; display:inline-table; line-height:40px;}
+.nivo-caption p, .slider_morebtn{ line-height:16px; font-size:14px; display:none;}
+}
+
+@media screen and (min-width:768px) and (max-width: 980px){
+.siteheader { width:100%; position:relative !important;}
+.dental_servicesbx h3{ font-size:16px;}
+.siteheader{ position:relative; background-color:rgba(0, 0, 0, 0.9);}
+#dental_about_wrapper{ padding:40px 0 10px;}
+.denatl_abtcontentdiv h3{ font-size:34px;}
+.nivo-directionNav a{ top:40%;}
+.denatl_abtcontentdiv{ padding-bottom:25px;}
+.dental_servicesbx .dental_thumbbx{ height:160px;}
+.dental_servicesbx .dental_thumbbx img{ minheight:160px;}
+}
+
+/* Tablet View */
+@media screen and (max-width:1169px) and (min-width:768px) { 
+*{box-sizing:border-box;}
+.container { width:auto; padding:0 20px;}
+
+/*slider css*/
+.nivo-caption{ width:75%; top:20%;}
+.nivo-caption h2{ font-size:42px; line-height:45px;}
+.content-area{ width:auto; margin:0; padding:50px 20px;}
+#sidebar{ width:30%;}
+.contentarea_for_pagelayout{ width:65%;}
+#site_layout_option{ width:100%;}
+.custom_front_page{ float:none; width:100%;}
+.denatl_abtcontentdiv{ padding-bottom:25px;}
+.custom_front_page .dental_blogpost_layout{  width:33%; float:left;  border-left:10px solid #f1f1f1; border-right:10px solid #f1f1f1; }
+.custom_front_page .article_imagebox{ background-color:#39adff; height:200px; overflow:hidden; margin-bottom:20px;}
+.custom_front_page .article_imagebox img{ width:100%; height: auto; min-height:200px;}
+}
+
+@media screen and (max-width:1169px) and (min-width:981px) { 
+html{overflow-x:hidden; }
+.nivo-caption{ bottom:35%;}
+}
+
+@media screen and (max-width: 980px){
+.toggleMenu{display: block;}
+.site-primemenu{float:none; margin:0; position:relative; overflow-x:hidden; background-color:#fff; border-radius:0; top:0; border-bottom:none; }
+.site-primemenu ul{color:#000; width:100% !important; float:none !important; margin:0; padding:0;}
+.site-primemenu ul li{border-top:1px #cccccc solid; display:block; float:none; text-align:left; border-bottom:none !important}
+.site-primemenu ul li a{padding:5px 10px !important; display:block; color:#000; border:none; text-align:left;}
+.site-primemenu ul li a:hover, .site-primemenu ul li.current_page_item a{color:#efc62c;  border:none !important; border-radius:0;}
+.site-primemenu ul li ul, .site-primemenu ul li ul ul{ display:block !important; background: transparent !important;}
+.site-primemenu ul li ul li a:before{content:"\00BB \00a0";}
+.site-primemenu ul li ul li a{padding-left:20px !important; }
+.site-primemenu ul li ul li a, .site-primemenu ul li.current-menu-ancestor a.parent{ border:none; border-radius:0;}
+.site-primemenu ul li ul li ul li a{padding-left:30px !important;}
+.site-primemenu ul li ul li ul li ul li a{padding-left:40px !important;}
+.site-primemenu ul li:hover > ul{ background:none !important; box-shadow:none;}
+.site-primemenu ul li:hover > ul{ background: transparent !important; width:auto !important; display:block; position: relative !important; left:0; right:0; top:0; padding:0;}
+.site-primemenu ul li:hover ul li ul, .site-primemenu ul li:hover ul li:hover > ul, .site-primemenu ul li:hover ul li:hover > ul li ul{  background: transparent !important; display:block; position:relative !important;  right:0; left:0; top:0;}
+.site-primemenu ul li:hover ul li:hover ul, .site-primemenu ul li:hover ul li:hover ul li:hover ul{ left:0 !important;}
+.site-primemenu ul li ul li a{ color:#000;}
+.siteheader{ position:relative; background-color:#111 !important; }
+.logo{ width:auto; float:none; text-align:center; margin-bottom:10px; position:relative;}
+.hdr_logright{ float:none; padding:0;}
+.appointwrap .appbutton{ position:relative; top:auto; display:inline-block;}
+.appointwrap p{ width:100%; margin-bottom:20px;}
+}
+{"mode":"full","isActive":false}

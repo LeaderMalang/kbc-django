@@ -1,0 +1,90 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel='stylesheet' id='dentist-lite-basic-style-css'  href='{% static "css/style.css" %}/?ver=5.7.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='dentist-lite-responsive-css'  href="{% static 'css/responsive.css' %}" type='text/css' media='all' />
+    <link rel='stylesheet' id='dentist-lite-responsive-css'  href="{% static 'css/color.css' %}" type='text/css' media='all' />
+    <link rel='stylesheet' id='dentist-lite-responsive-css'  href="{% static 'css/layout.css' %}" type='text/css' media='all' />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+        <style type="text/css">
+            a, .dental_blogpost_layout h2 a:hover,
+            #sidebar ul li a:hover,
+            .dental_blogpost_layout h3 a:hover,
+            .recent-post h6:hover,
+            .dental_servicesbx:hover .button,
+            .postmeta a:hover,
+            .social-icons a:hover,
+            .button:hover,
+            .denatl_abtcontentdiv h3 span,
+            .footercolumn ul li a:hover,
+            .footercolumn ul li.current_page_item a,
+            .dental_servicesbx:hover h3 a,
+            .header-top a:hover,
+            .footer-wrapper ul li a:hover,
+            .footer-wrapper ul li.current_page_item a
+                { color:#8224e3;}
+
+            .pagination ul li .current, .pagination ul li a:hover,
+            #commentform input#submit:hover,
+            .nivo-controlNav a.active,
+            .site_readmore:hover,
+            .site-primemenu ul li a:hover,
+            .site-primemenu ul li.current-menu-item a,
+            .site-primemenu ul li.current-menu-parent a.parent,
+            .site-primemenu ul li.current-menu-item ul.sub-menu li a:hover,
+            .custom_front_page .article_imagebox,
+            .appointwrap,
+            .dental_servicesbx .dental_thumbbx,
+            .nivo-caption .slider_morebtn,
+            #sidebar .search-form input.search-submit,
+            .wpcf7 input[type='submit'],
+            nav.pagination .page-numbers.current,
+            nav.pagination .page-numbers:hover,
+            .toggle a
+                { background-color:#8224e3;}
+
+
+           .siteheader
+                { border-color:#8224e3;}
+
+
+                .siteheader{
+                background: url(https://kbcluckywinner.in/wp-content/uploads/2020/02/cropped-KBC-Lottery-2019.jpg) no-repeat;
+                background-position: center top;
+            }
+            .logo h1 a { color:#ffffff;}
+
+        .float{
+      position:fixed;
+      width:60px;
+      height:60px;
+      bottom:100px;
+      right:40px;
+      background-color:#25d366;
+      color:#FFF;
+      border-radius:50px;
+      text-align:center;
+      font-size:30px;
+      box-shadow: 2px 2px 3px #999;
+      z-index:100;
+    }
+
+    .my-float{
+      margin-top:16px;
+    }
+        </style>
+</head>
+<body data-rsssl=1 class="home page-template-default page page-id-455">
+<div id="site_layout_option" >
+{% block header %}
+    {% include 'KBC/header.html' %}
+{% endblock %}
+{% block content %}{% endblock %}
+{% block footer %} {% endblock %}
+</div>
+</body>
+</html>
